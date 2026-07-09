@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^akses_ditolak\.php$ - [L]
+RewriteRule ^cek_wifi\.php$ - [L]
+
+RewriteRule ^assets/ - [L]
+RewriteRule ^vendor/ - [L]
+RewriteRule ^fpdf/ - [L]
