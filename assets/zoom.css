@@ -1,0 +1,33 @@
+/* =========================
+   GLOBAL ZOOM SETTING
+   ========================= */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Kecilkan seluruh halaman */
+body {
+  zoom: 0.75; /* ubah ke 0.8 kalau mau lebih kecil */
+  font-size: 14px;
+}
+
+/* Supaya teks tidak terlalu besar */
+h1 { font-size: 22px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+
+/* Form dan tombol tetap proporsional */
+button, input, select, textarea {
+  font-size: 14px;
+}
+
+/* Supaya card/container tidak terlalu melebar */
+.container,
+.card,
+.panel,
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
